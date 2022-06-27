@@ -20,3 +20,9 @@
 ### reentrancy_solution_x.sol 重入攻击的3种解决方案
 
 关于部署及测试可参考：
+
+## 目录：Fallback 为测试回退函数的2种触发执行方式
+### fallback.sol 
+如果在一个合约的调用中，没有其他函数与给定的函数标识符匹配时（或没有提供调用数据）,fallback函数会被执行。
+### fallback_eth.sol
+当合约收到以太币时，fallback函数会被执行。
