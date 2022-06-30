@@ -14,11 +14,19 @@
 部署合约CallBaseContract，在此合约中进行测试，测试可参考：https://blog.csdn.net/ling1998/article/details/124507451#comments_21830871
 
 ## 目录：Base
-### import_url.sol 导入url中的合约
-### import_alias.sol 为导入的合约起别名及其用法
+### import_url.sol 
+导入url中的合约
+### import_alias.sol 
+导入的合约起别名及其用法
+可参考：https://blog.csdn.net/ling1998/article/details/124558163?spm=1001.2014.3001.5502
 
-### error.sol 0.8.4新增结构 - error
+### error.sol 
+0.8.4新增结构 - error
 可参考：https://blog.csdn.net/ling1998/article/details/125548188?spm=1001.2014.3001.5502
+
+### send_transfer.sol
+测试 send 与 transfer 发送以太的区别
+可参考：https://blog.csdn.net/ling1998/article/details/124558163?spm=1001.2014.3001.5502
 
 ## 目录：Fallback 为测试回退函数的2种触发执行方式
 ### fallback.sol 
